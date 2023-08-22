@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --line-border-empty: #E0E0E0;
+    --line-border-fill: #3498db;
+}
+
 body {
     font-family: "Muli", sans-serif;
     display: flex;
@@ -24,14 +29,20 @@ body {
 }
 
 .circle {
+    background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 16px;
-    border: 3px solid #3498db;
+    border: 3px solid var(--line-border-empty);
     border-radius: 50%;
     width: 30px;
     height: 30px;
+}
+
+.circle.active {
+    background: #ffffff;
+    border-color: var(--line-border-fill)
 }
 
 .btn {
