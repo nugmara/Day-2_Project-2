@@ -11,7 +11,6 @@ This is a simple web application that demonstrates progress steps with JavaScrip
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
