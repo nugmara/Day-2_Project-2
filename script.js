@@ -34,8 +34,6 @@ function updateProgress() {
 
   progress.style.width = (actives.length - 1) / (circles.length - 1) * 100 + "%";
 
-  console.log(circles.length)
-  console.log(activeCircles)
   if (activeCircles === 1) {
     prevButton.disabled = true;
   } else if (activeCircles === circles.length) {
