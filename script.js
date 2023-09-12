@@ -37,7 +37,7 @@ function updateProgress() {
   if (activeCircles === 1) {
     prevButton.disabled = true;
   } else if (activeCircles === circles.length) {
-    nextButton.disabled === true;
+    nextButton.disabled === false;
   } else {
     prevButton.disabled = false;
     nextButton.disabled = false;
